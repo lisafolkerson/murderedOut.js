@@ -11,7 +11,7 @@ var gulp = require('gulp'),
 gulp.task('default', ['browser-sync', 'jshint', 'styles', 'watch']);
 
 gulp.task('jshint', function() {
-	return gulp.src('./assets/scripts/*.js')
+	return gulp.src('./assets/**/*.js')
 		.pipe(jshint())
 		.pipe(jshint.reporter('jshint-stylish'))
 		.pipe(reload({stream: true}));
