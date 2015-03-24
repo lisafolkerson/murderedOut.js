@@ -6,7 +6,9 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
 
 
-
+/**********************************
+	FUNCTIONAL STYLES
+***********************************/
 .murder:before, .murder:after {
 	background-color: black;
 	background-image: none;
@@ -16,4 +18,13 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 	box-shadow: 0 0 0 black;
 	border-color: black;
 	fill: black;
+}
+
+
+/**********************************
+	DOCS STYLES
+***********************************/
+
+.wrapper {
+	
 }
