@@ -13,10 +13,8 @@ $.fn.murdered ({
 		$('*').css({"position":"relative"});
 		$('*').after('<div style= "background-color:black; opacity:0.8; position:absolute; top:0; left:0; width:100%; height:100%;">');
 
+		$('*').addClass('murder');
 
-
-		//change placeholder text to black
-		$('*::-webkit-input-placeholder, *:-moz-placeholder, *::-moz-placeholder, *:-ms-input-placeholder').css({ "backgroundImage":"none", "backgroundColor":"black", "color":"#333" });
 
 		//delete h1
 		$( 'h1' ).text(" ");

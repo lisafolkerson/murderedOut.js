@@ -5,3 +5,15 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 
 * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
 
+
+
+.murder:before, .murder:after {
+	background-color: black;
+	background-image: none;
+	color: #333;
+	text-shadow: 0 0 0 black;
+	border: 1px solid black;
+	box-shadow: 0 0 0 black;
+	border-color: black;
+	fill: black;
+}
