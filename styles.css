@@ -50,6 +50,7 @@ header {
 	text-align: center;
 }
 
+
 .button{
 	padding: 5px 20px;
 	display: inline-block;
@@ -58,7 +59,14 @@ header {
 	border: 2px solid #222;
 	cursor: pointer;
 }
+
 .button:hover{
 	color: #222;
 	background:white;
+}
+
+h1 {
+	font-family: 'Abril Fatface', cursive;
+	font-size: 6em;
+    font-weight: 100;
 }
