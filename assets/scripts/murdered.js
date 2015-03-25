@@ -1,4 +1,4 @@
-$.fn.murdered ({
+$.fn.murdered = function() {
 		//strip all inline styles
 		// $('*').removeAttr('style');
 
@@ -23,4 +23,4 @@ $.fn.murdered ({
 
 		
 		}, 1000); //sets interval, end setInterval
-}); //end murdered function
+}; //end murdered function
