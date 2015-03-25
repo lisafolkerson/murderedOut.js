@@ -2,6 +2,6 @@
 
 
 $(function(){
-	$('document').murdered();
+	murdered();
 });//end doc ready
 

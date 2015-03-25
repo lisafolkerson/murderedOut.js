@@ -24,7 +24,18 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 /**********************************
 	DOCS STYLES
 ***********************************/
-
-.wrapper {
-	
+body {
+	background: black;
+	color: white;
+	font-family: 'Lato', sans-serif;
+	font-weight: 200;
 }
+.wrapper {
+	width: 70%;
+	margin: 0 auto;
+}
+
+header {
+	text-align: center;
+}
+
