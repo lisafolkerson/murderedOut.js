@@ -27,10 +27,20 @@
 			<h2>How to Murder Out</h2>
 
 			<p>The bookmarklet:</p>
-			<a href='javascript:(function(){
-			$("*").removeAttr("style"),setInterval(function(){$("*, *:before, *:after").css({backgroundImage:"none",backgroundColor:"black",color:"#333",textShadow:"0 0 0 black",border:"1px solid black",boxShadow:"0 0 0 black","border-color":"black",fill:"black"}),$("img").css({"-webkit-filter":"grayscale()",opacity:"0.4"}),$("*").css({position:"relative"}),$("*").after("<div style= "background-color:black; opacity:0.8; position:absolute; top:0; left:0; width:100%; height:100%;">"),$("*").addClass("murder"),$("h1").text(" ")},1e3);
+			<a href="javascript:(function(){
+				$('*').removeAttr('style');
+				setInterval(function(){
 
-			})();' >Bookmarklet</a>
+				$( '*, *:before, *:after' ).css({ 'backgroundImage':'none', 'backgroundColor':'black', 'color':'#333', 'textShadow':'0 0 0 black', 'border':'1px solid black', 'boxShadow':'0 0 0 black','border-color': 'black', 'fill':'black' });
+
+				
+				$('img').css({'-webkit-filter':'grayscale()', 'opacity':'0.4'});
+				$('*').css({'position':'relative'});
+
+				$('*').addClass('murder');
+				
+				}, 1000);
+			})();" >Bookmarklet</a>
 
 			<p>Murdering out your website is simple. The first step is to include the muderedOut.js file and link to it in your HTML. It will look a little something like this:</p>
 			<pre>
@@ -69,7 +79,7 @@
 		</section><!--end moneyShot-->	
 
 		<footer>
-<<<<<<< HEAD
+
 			<div class="tweet">
 				<a href="https://twitter.com/intent/tweet?text=I%20murdered%20out%20my%20site%20for%20earth%20day%20&url=http%3A%2F%2Fjordandeutsch.com/murderedOut.js" target="_">
 					<i class="fa fa-twitter" class= "twitterLogo"></i>
@@ -78,10 +88,10 @@
 			</div>
 			
 			<p class="credits">made with &#9825; by <a href="http://lisafolkerson.com/" target="_">Lisa</a>  &#38; <a href="http://jordandeutsch.com/" target="_">Jordan</a></p>
-=======
+
 			<img src="assets/imgs/lilTigers.png" alt="Two beautiful tiger friends" class="tigers">
 			<p>made with &#9825; by <a href="http://lisafolkerson.com/">Lisa</a>  &#38; <a href="http://jordandeutsch.com/">Jordan</a></p>
->>>>>>> 9d74c98669f40969c445d8800b9379546ceb1b4e
+
 		</footer>
 	</div><!--end wrapper-->
 
