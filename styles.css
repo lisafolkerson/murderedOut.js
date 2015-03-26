@@ -93,7 +93,7 @@ h1 {
 	border-radius: 5px;	
 	border: 2px solid #222;
 	cursor: pointer;
-	background: <font><font>background: #f22c00; /* Old browsers */</font></font>
+
 	background: -moz-linear-gradient(-45deg,  #f22c00 0%, #eaf700 24%, #0bed13 46%, #00e8f4 63%, #8100ea 84%, #ff00e1 100%); /* FF3.6+ */
 	background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,#f22c00), color-stop(24%,#eaf700), color-stop(46%,#0bed13), color-stop(63%,#00e8f4), color-stop(84%,#8100ea), color-stop(100%,#ff00e1)); /* Chrome,Safari4+ */
 	background: -webkit-linear-gradient(-45deg,  #f22c00 0%,#eaf700 24%,#0bed13 46%,#00e8f4 63%,#8100ea 84%,#ff00e1 100%); /* Chrome10+,Safari5.1+ */
@@ -113,9 +113,26 @@ h1 {
 
 footer{
 	font-size: 16px;
-	float: right;
 	margin:20px 0;
+	display: inline-block;
+	width: 100%;
 }
+.tweet{
+	float: left;
+	color: #333;
+	background: rgba(255,255,255,0.4);
+	border: 2px solid #333;
+	border-radius: 5px;
+	padding: 8px 20px;
+}
+.tweet p{
+	display: inline;
+}
+.credits{
+	float: right;
+	padding: 8px 20px;
+}
+
 footer a{
 	text-decoration: none;
 	color: white;
