@@ -11,7 +11,6 @@
 		<header>
 			<h1>murderedOut.js</h1>
 			<h2>Lights Out for Earth Day</h2>
-			<div class="button on"><p>Murdered Out</p></div>
 		</header>
 		<section class="docs">
 			<img src="assets/imgs/smileKat.gif" height="340" width="433" alt="">
@@ -22,17 +21,22 @@
 			<p>Murdering out your website is simple. The first step is to include the muderedOut.js file and link to it in your HTML. It will look a little something like this:</p>
 			<pre>
 				<code>
+				$(function(){
 					&lt;script src="murderedOut.js"&gt;&lt;/script&gt;
+				});//end doc ready	
 				</code>
 			</pre>
 
 			<p>Once you have linked the murderedOut.js file you need to call the murderedOut() function in your main scripts file. That looks like this:</p>
 			<pre>
-				<code>
+				<code class="code">
 					murdered();
 				</code>
 			</pre>
 		</section><!--end .docs-->
+		<section class="moneyShot">
+			<div class="button on"><p>Murdered Out</p></div>
+		</section><!--end moneyShot-->	
 	</div><!--end wrapper-->
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
