@@ -139,6 +139,7 @@ footer{
 	border: 2px solid #333;
 	border-radius: 5px;
 	padding: 8px 20px;
+	margin:20px 0;
 }
 .tweet p{
 	display: inline;
@@ -148,11 +149,7 @@ footer{
 	padding: 8px 20px;
 }
 
-.tigers {
-	width: 40%;
-	margin: 0 auto;
-	display: block;
-}
+
 
 footer a{
 	text-decoration: none;
