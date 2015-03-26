@@ -15,28 +15,52 @@
 		<section class="docs">
 			<img src="assets/imgs/smileKat.gif" height="340" width="433" alt="">
 			<h2>Why Murdered Out?</h2>
-			<p>Sometimes when we are on websites our screens produce a hefty amount of light. Industry front runners have addressed this issue through the creation of visually darker sites (Blackl, The Dark Side of Google, etc.). These alternatives are cognizant that the artificial light emitted by your computer contributes to the degradation of photic habitats and to the average levels of natural light. This light is human generated. Accordingly, it is up to us, on earth day and every day, to reduce the amount of artificial light we are producing. Also as Rick Ross once said "Success in my possession, had you murdered out of karma".</p><p> Basically murdering out your site successfully results in good karma.</p>
+			<p>Sometimes when we are on websites our screens produce a hefty amount of light. Industry front runners have addressed this issue through the creation of visually darker sites (Blackl, The Dark Side of Google, etc.).</p>
+
+			<p>These alternatives are cognizant that the artificial light emitted by your computer contributes to the degradation of photic habitats and to the average levels of natural light. This light is human generated. Accordingly, it is up to us, on earth day and every day, to reduce the amount of artificial light we are producing. Also as Rick Ross once said "Success in my possession, had you murdered out of karma".</p>
+
+			<p> Basically murdering out your site successfully results in good karma.</p>
 
 			<h2>How to Murder Out</h2>
 			<p>Murdering out your website is simple. The first step is to include the muderedOut.js file and link to it in your HTML. It will look a little something like this:</p>
 			<pre>
-	<code class="code">
+<code class="code">
 	&lt;script src="murderedOut.js"&gt;&lt;/script&gt;
-	</code>
+</code>
 			</pre>
 
 			<p>Once you have linked the murderedOut.js file you need to call the murderedOut() function in your main scripts file. That looks like this:</p>
 			<pre>
-	<code class="code">
+<code class="code">
 	$(function(){
 		murdered();	
 	});//end doc ready
-	</code>
+</code>
 			</pre>
+
+		<p>If you have colourful before and after pseudo elements in your code give them a class of "murder" and add the following CSS to your styles sheet.</p>
+		<pre>
+<code class="code">
+	.murder:before, .murder:after {
+		background-color: black;
+		background-image: none;
+		color: #333;
+		text-shadow: 0 0 0 black;
+		border: 1px solid black;
+		box-shadow: 0 0 0 black;
+		border-color: black;
+		fill: black;
+	}
+</code>		
+		</pre>	
 		</section><!--end .docs-->
 		<section class="moneyShot">
 			<div class="button on"><p>Murdered Out</p></div>
 		</section><!--end moneyShot-->	
+
+		<footer>
+			<p>made with &#9825; by <a href="http://lisafolkerson.com/">Lisa</a>  &#38; <a href="http://jordandeutsch.com/">Jordan</a></p>
+		</footer>
 	</div><!--end wrapper-->
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
