@@ -2,9 +2,11 @@
 
 
 $(function(){
+
+
 	$('.button').on('click', function(){	
-	$('body').murdered();
-	console.log('maybe?')
+		$('body').murdered();
+		
 	});
 });//end doc ready
 
