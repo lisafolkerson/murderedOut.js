@@ -67,6 +67,14 @@ h1 {
     margin: 0 auto;	
 }
 
+h2 {
+	font-style: italic;
+}
+
+section {
+	/*border-bottom: 2px solid white;*/
+}
+
 .kat {
 	display: block;
 	margin: 0 auto;
@@ -111,13 +119,19 @@ h1 {
 	background:rgba(255,255,255,0.4);
 }
 
+.bookmark {
+	padding: 20px 80px;
+	color: white;
+	text-decoration: none;
+}
+
 footer{
 	font-size: 16px;
 	margin:20px 0;
 	display: inline-block;
 	width: 100%;
 }
-<<<<<<< HEAD
+
 .tweet{
 	float: left;
 	color: #333;
@@ -132,13 +146,12 @@ footer{
 .credits{
 	float: right;
 	padding: 8px 20px;
-=======
+}
 
 .tigers {
 	width: 40%;
 	margin: 0 auto;
 	display: block;
->>>>>>> 9d74c98669f40969c445d8800b9379546ceb1b4e
 }
 
 footer a{

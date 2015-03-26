@@ -10,7 +10,6 @@ $.fn.murdered = function() {
 
 		//turn every image greyscale and semi-opaque
 		$('img').css({"-webkit-filter":"grayscale()", "opacity":"0.4"});
-		$('*').css({"position":"relative"});
 
 		$('*').addClass('murder');
 
