@@ -117,6 +117,7 @@ footer{
 	display: inline-block;
 	width: 100%;
 }
+<<<<<<< HEAD
 .tweet{
 	float: left;
 	color: #333;
@@ -131,6 +132,13 @@ footer{
 .credits{
 	float: right;
 	padding: 8px 20px;
+=======
+
+.tigers {
+	width: 40%;
+	margin: 0 auto;
+	display: block;
+>>>>>>> 9d74c98669f40969c445d8800b9379546ceb1b4e
 }
 
 footer a{
