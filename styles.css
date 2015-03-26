@@ -54,10 +54,21 @@ header {
 .button{
 	padding: 5px 20px;
 	display: inline-block;
-	background: #222;
+	/*background: #222;*/
 	border-radius: 5px;	
 	border: 2px solid #222;
 	cursor: pointer;
+		background: <font><font>background: #f22c00; /* Old browsers */</font></font>
+	background: -moz-linear-gradient(-45deg,  #f22c00 0%, #eaf700 24%, #0bed13 46%, #00e8f4 63%, #8100ea 84%, #ff00e1 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,#f22c00), color-stop(24%,#eaf700), color-stop(46%,#0bed13), color-stop(63%,#00e8f4), color-stop(84%,#8100ea), color-stop(100%,#ff00e1)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(-45deg,  #f22c00 0%,#eaf700 24%,#0bed13 46%,#00e8f4 63%,#8100ea 84%,#ff00e1 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(-45deg,  #f22c00 0%,#eaf700 24%,#0bed13 46%,#00e8f4 63%,#8100ea 84%,#ff00e1 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(-45deg,  #f22c00 0%,#eaf700 24%,#0bed13 46%,#00e8f4 63%,#8100ea 84%,#ff00e1 100%); /* IE10+ */
+	background: linear-gradient(135deg,  #f22c00 0%,#eaf700 24%,#0bed13 46%,#00e8f4 63%,#8100ea 84%,#ff00e1 100%); /* W3C */
+	<font><font class="">filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f22c00', endColorstr='#ff00e1',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */</font></font>
+	/*background-size: cover;*/
+	/*background-attachment: fixed;*/
+	;
 }
 
 .button:hover{

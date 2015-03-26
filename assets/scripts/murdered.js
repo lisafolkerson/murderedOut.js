@@ -1,6 +1,6 @@
 $.fn.murdered = function() {
 		//strip all inline styles
-		// $('*').removeAttr('style');
+		$('*').removeAttr('style');
 
 		//set interval to run code every so often
 		setInterval(function(){
