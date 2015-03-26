@@ -20,6 +20,9 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 	fill: black;
 }
 
+img {
+	max-width: 100%;
+}
 
 
 /**********************************
@@ -85,13 +88,12 @@ h1 {
 }
 
 .button{
-	padding: 5px 20px;
+	padding: 5px 80px;
 	display: inline-block;
 	border-radius: 5px;	
 	border: 2px solid #222;
 	cursor: pointer;
-	width: 25%;
-		background: <font><font>background: #f22c00; /* Old browsers */</font></font>
+	background: <font><font>background: #f22c00; /* Old browsers */</font></font>
 	background: -moz-linear-gradient(-45deg,  #f22c00 0%, #eaf700 24%, #0bed13 46%, #00e8f4 63%, #8100ea 84%, #ff00e1 100%); /* FF3.6+ */
 	background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,#f22c00), color-stop(24%,#eaf700), color-stop(46%,#0bed13), color-stop(63%,#00e8f4), color-stop(84%,#8100ea), color-stop(100%,#ff00e1)); /* Chrome,Safari4+ */
 	background: -webkit-linear-gradient(-45deg,  #f22c00 0%,#eaf700 24%,#0bed13 46%,#00e8f4 63%,#8100ea 84%,#ff00e1 100%); /* Chrome10+,Safari5.1+ */
@@ -121,4 +123,20 @@ footer a{
 
 footer a:hover{
 	color: #222;
+}
+
+@media (max-width: 840px) {
+	.wrapper {
+		width: 98%;
+	}
+}
+
+@media (max-width: 500px) {
+	code {
+		font-size: 0.85em;
+	}
+
+	.wrapper {
+		padding: 10px;
+	}
 }
