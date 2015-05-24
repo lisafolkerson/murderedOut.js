@@ -17,7 +17,7 @@
 		<section>	
 			<h2>How to Murder Out</h2>
 			<h3>Murder out any site from your browser</h3>
-			<p>Drag the bookmarklet below into your bookmarks tab or right-click add to bookmarks. From there you can click it while you are on any site to simply and easily Murder It Out</p>
+			<p>Drag the bookmarklet from the site  A [link](http://murderedoutjs.com) into your bookmarks tab or right-click add to bookmarks. From there you can click it while you are on any site to simply and easily Murder It Out</p>
 		</section>
 		<section>	
 			<h3>Murder Out your own site (for Earth Day)</h3>
