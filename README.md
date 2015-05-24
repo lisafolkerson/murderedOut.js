@@ -50,10 +50,6 @@
 	}
 </code>		
 		</pre>	
-		<!-- <div> -->
-			<div class="button on"><p>Murder Out</p></div>
-		</div><!--end moneyShot-->	
-		</section><!--end .docs-->	
 		<footer>
 		<div class="tweet">
 				<a href="https://twitter.com/intent/tweet?text=I%20murdered%20out%20my%20site%20for%20earth%20day%20with%20&url=http%3A%2F%2Fmurderedoutjs.com" target="_">
