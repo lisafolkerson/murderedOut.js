@@ -18,17 +18,6 @@
 			<h2>How to Murder Out</h2>
 			<h3>Murder out any site from your browser</h3>
 			<p>Drag the bookmarklet below into your bookmarks tab or right-click add to bookmarks. From there you can click it while you are on any site to simply and easily Murder It Out</p>
-				<a href="javascript:(function(e,a,g,h,f,c,b,d){if(!(f=e.jQuery)||g>f.fn.jquery||h(f)){c=a.createElement('script');c.type='text/javascript';c.src='http://ajax.googleapis.com/ajax/libs/jquery/'+g+'/jquery.min.js';c.onload=c.onreadystatechange=function(){if(!b&&(!(d=this.readyState)||d=='loaded'||d=='complete')){h((f=e.jQuery).noConflict(1),b=1);f(c).remove()}};a.documentElement.childNodes[0].appendChild(c)}})(window,document,'1.3.2',function($,L){
-				$('*').removeAttr('style');
-				setInterval(function(){
-				$( '*, *:before, *:after' ).css({ 'backgroundImage':'none', 'backgroundColor':'black', 'color':'#333', 'textShadow':'0 0 0 black', 'border':'1px solid black', 'boxShadow':'0 0 0 black','border-color': 'black', 'fill':'black' });
-				
-				$('img').css({'-webkit-filter':'grayscale()', 'opacity':'0.4'});
-				$('*').css({'position':'relative'});
-				$('*').addClass('murder');
-				
-				}, 1000);
-			})();" ><p class="button bookmark"> &#9760; Murder Out &#9760; </p></a>
 		</section>
 		<section>	
 			<h3>Murder Out your own site (for Earth Day)</h3>
